@@ -28,7 +28,7 @@ The following Splunk alerts were configured:
 📌 *See `/splunk_screenshots/alerts/` for alert examples.*
 
 ### 3. Deliverables
-- 📑 [Incident Response Report (PDF)](/reports/Incident_Response_Report-SOC_Internship_Project.pdf)  
+- 📑 [Incident Response Report (PDF)](reports/Incident%20Response%20Report%20%E2%80%93%20SOC%20Internship%20Project.pdf)  
 - 📂 [Alert Classification Log (Excel/CSV)](/reports/Alert_Classification_Log.xlsx)   
 - 📸 [Screenshots from Splunk](/splunk_screenshots/)  
 
