@@ -1,0 +1,135 @@
+[
+  {
+    "type": "malware",
+    "user": "alice",
+    "ip": "198.51.100.42",
+    "timestamp": "2025-07-03T04:19:14",
+    "threat": "Unknown Malware",
+    "severity": "Medium",
+    "note": ""
+  },
+  {
+    "type": "malware",
+    "user": "alice",
+    "ip": "192.168.1.101",
+    "timestamp": "2025-07-03T04:29:14",
+    "threat": "Unknown Malware",
+    "severity": "Medium",
+    "note": ""
+  },
+  {
+    "type": "malware",
+    "user": "alice",
+    "ip": "172.16.0.3",
+    "timestamp": "2025-07-03T04:41:14",
+    "threat": "Unknown Malware",
+    "severity": "Medium",
+    "note": ""
+  },
+  {
+    "type": "malware",
+    "user": "bob",
+    "ip": "203.0.113.77",
+    "timestamp": "2025-07-03T05:06:14",
+    "threat": "Unknown Malware",
+    "severity": "Medium",
+    "note": ""
+  },
+  {
+    "type": "malware",
+    "user": "eve",
+    "ip": "192.168.1.101",
+    "timestamp": "2025-07-03T05:30:14",
+    "threat": "Unknown Malware",
+    "severity": "Medium",
+    "note": ""
+  },
+  {
+    "type": "malware",
+    "user": "eve",
+    "ip": "203.0.113.77",
+    "timestamp": "2025-07-03T05:42:14",
+    "threat": "Unknown Malware",
+    "severity": "Medium",
+    "note": ""
+  },
+  {
+    "type": "malware",
+    "user": "david",
+    "ip": "172.16.0.3",
+    "timestamp": "2025-07-03T05:45:14",
+    "threat": "Unknown Malware",
+    "severity": "Medium",
+    "note": ""
+  },
+  {
+    "type": "malware",
+    "user": "bob",
+    "ip": "10.0.0.5",
+    "timestamp": "2025-07-03T05:48:14",
+    "threat": "Unknown Malware",
+    "severity": "Medium",
+    "note": ""
+  },
+  {
+    "type": "malware",
+    "user": "charlie",
+    "ip": "172.16.0.3",
+    "timestamp": "2025-07-03T07:45:14",
+    "threat": "Unknown Malware",
+    "severity": "Medium",
+    "note": ""
+  },
+  {
+    "type": "malware",
+    "user": "eve",
+    "ip": "10.0.0.5",
+    "timestamp": "2025-07-03T07:51:14",
+    "threat": "Unknown Malware",
+    "severity": "Medium",
+    "note": ""
+  },
+  {
+    "type": "malware",
+    "user": "bob",
+    "ip": "172.16.0.3",
+    "timestamp": "2025-07-03T09:10:14",
+    "threat": "Unknown Malware",
+    "severity": "Medium",
+    "note": ""
+  },
+  {
+    "type": "multi_ip_login",
+    "user": "bob",
+    "ips": [
+      "198.51.100.42",
+      "192.168.1.101"
+    ],
+    "start": "2025-07-03T04:18:14",
+    "end": "2025-07-03T05:18:14",
+    "severity": "Medium"
+  },
+  {
+    "type": "multi_ip_login",
+    "user": "eve",
+    "ips": [
+      "203.0.113.77",
+      "172.16.0.3"
+    ],
+    "start": "2025-07-03T08:30:14",
+    "end": "2025-07-03T09:30:14",
+    "severity": "Medium"
+  },
+  {
+    "type": "widespread_malware_pattern",
+    "users_affected": [
+      "eve",
+      "david",
+      "charlie",
+      "bob",
+      "alice"
+    ],
+    "severity": "High",
+    "note": "Multiple users triggered malware detections across different hosts - possible lateral spread."
+  }
+]
